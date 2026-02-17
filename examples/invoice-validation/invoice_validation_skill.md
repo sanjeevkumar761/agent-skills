@@ -1,17 +1,17 @@
-# Invoice Validation Skill
+# Invoice Validation Skill  
 
 ---
-name: invoice-validation
-description: >
-  Validate vendor invoices and classify processing outcomes.
-  Use when an invoice is received and needs to be assessed for
-  match status, compliance, and routing.
-metadata:
-  domain: finance
-  process: accounts-payable
-  owner: finance-operations
-  version: 1.0
----
+name: invoice-validation  
+description:  
+  Validate vendor invoices and classify processing outcomes.  
+  Use when an invoice is received and needs to be assessed for  
+  match status, compliance, and routing.  
+metadata:  
+  domain: finance  
+  process: accounts-payable  
+  owner: finance-operations  
+  version: 1.0  
+---  
 
 ## Purpose
 This skill teaches the agent how to **evaluate a vendor invoice** and determine whether it can proceed automatically or requires human intervention.
